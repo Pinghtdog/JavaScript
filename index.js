@@ -22,3 +22,10 @@
  person.age = 32;
  
  console.log(person.age + " " + person.name );
+
+//Function
+ function greet(name){
+    console.log('Hello ' + name);
+ }// no ";"
+
+ greet("Kelvin");
